@@ -21,5 +21,4 @@ class Negociation {
     get volume() {
         return this._amount * this._value;
     }
-
 }
