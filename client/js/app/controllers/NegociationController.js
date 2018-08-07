@@ -6,8 +6,9 @@ class NegociationController {
         this._inputDate = $('#date');
         this._inputAmount = $('#amount');
         this._inputValue = $('#value');
-        this._listNegociation = new ListNegociations();
 
+        // We are sending the model to the add and update methods. This way we can call the methods inside the instance and reduce de code
+        this._listNegociation = new ListNegociations(model => this._negociationsView.update(model));
         this._negociationsView = new NegociationsView($('#negociationsView'));
         this._negociationsView.update(this._listNegociation);
 
@@ -20,12 +21,16 @@ class NegociationController {
 
         event.preventDefault();
         this._listNegociation.add(this._createNegociation());
-        this._negociationsView.update(this._listNegociation);
-
-        this._message.text = 'Negociation was recorded successfully';
-        this._messageView.update(this._message); 
-
+        this._message.text = 'Your negociation was recorded successfully';
+        this._messageView.update(this._message);  
         this._clearForm();
+    }
+
+    delete() {
+
+        this._listNegociation.clear();
+        this._message.text = 'Your negociations were deleted successfully';
+        this._messageView.update(this._message);
     }
 
     _createNegociation() {

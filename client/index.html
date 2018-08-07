@@ -37,7 +37,7 @@
         <button class="btn btn-primary text-center" type="button">
             Import Negociations
         </button>
-        <button class="btn btn-primary text-center" type="button">
+        <button onclick="negociationController.delete()" class="btn btn-primary text-center" type="button">
             Delete
         </button>
     </div> 
@@ -46,8 +46,8 @@
 
     <div id="negociationsView"></div>
 
-    <script src="js/app/models/Negociation.js"></script>
     <script src="js/app/controllers/NegociationController.js"></script>
+    <script src="js/app/models/Negociation.js"></script>
     <script src="js/app/helpers/DateHelper.js"></script> 
     <script src="js/app/models/ListNegociations.js"></script>
     <script src="js/app/views/View.js"></script>
