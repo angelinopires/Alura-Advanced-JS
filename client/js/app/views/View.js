@@ -1,18 +1,16 @@
-class View  {
-
-    constructor(element) {
-
-        this._element = element;
+class View {
+    
+    constructor(elemento) {
+        
+        this._elemento = elemento;
     }
-
+    
     template() {
         
-        // we used this method because the childrens overwritten this method (if they have it)
-        throw new Error('The template method should be builded first!');
+        throw new Error('O método template deve ser implementado');
     }
-
+    
     update(model) {
-
-        return this._element.innerHTML = this.template(model);
+        this._elemento.innerHTML = this.template(model);
     }
 }

@@ -8,6 +8,8 @@ In thoses classes was approached many concepts of JavaScript, like:
 
 ### Advanced JavaScript II
 
-We continues using the same project to build and learn diffents concepts of Java Script. In this modele we approached:
+We continues using the same project to build and learn differents concepts of Java Script. In this modele we approached:
 
 * Reflection API;
+* Proxy Methodology;
+* Factory Project Pattern;
