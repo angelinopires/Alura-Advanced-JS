@@ -1,12 +1,24 @@
-To run the project, get to the server folder:
+### How I see the project?
+
+
+First you have to download the project:
 
 ```
-cd server
+git clone https://github.com/angelinopires/Alura-Advanced-JS
+```
 
-And then you start it
+Get to the server folder inside the project:
+
+```
+cd angelinopires/Alura-Advanced-JS/server
+
+```
+
+And then you start it:
 
 ```
 npm start
+```
 
 ### Advanced JavaScript I
 
@@ -26,3 +38,7 @@ We continues using the same project to build and learn differents concepts of Ja
 * Factory Project Pattern;
 * AJAX Requisition;
 * Promisses;
+
+
+
+Thanks for coming :)
