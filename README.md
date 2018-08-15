@@ -7,18 +7,22 @@ First you have to download the project:
 git clone https://github.com/angelinopires/Alura-Advanced-JS
 ```
 
-Get to the server folder inside the project:
+
+Get to the folder of the project and run:
 
 ```
-cd angelinopires/Alura-Advanced-JS/server
-
+cd angelinopires/Alura-Advanced-JS/
+npm install
 ```
+
 
 And then you start it:
 
 ```
+cd server
 npm start
 ```
+
 
 ### Advanced JavaScript I
 
@@ -41,4 +45,4 @@ We continues using the same project to build and learn differents concepts of Ja
 
 
 
-Thanks for coming :)
+~~~ Thanks for coming :)
