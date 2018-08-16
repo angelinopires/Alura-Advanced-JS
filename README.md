@@ -1,5 +1,10 @@
-### How I see the project?
+## How can I run the project?
 
+To run this project you'll need the Node.js installed. Follow this tutorial of NVM:
+
+```
+https://github.com/creationix/nvm
+```
 
 First you have to download the project:
 
@@ -8,7 +13,7 @@ git clone https://github.com/angelinopires/Alura-Advanced-JS
 ```
 
 
-Get to the folder of the project and run:
+Get to the folder of the project and run this commands:
 
 ```
 cd angelinopires/Alura-Advanced-JS/
@@ -24,7 +29,7 @@ npm start
 ```
 
 
-### Advanced JavaScript I
+## Advanced JavaScript I
 
 In thoses classes was approached many concepts of JavaScript, like:
 
@@ -33,7 +38,7 @@ In thoses classes was approached many concepts of JavaScript, like:
 * Good manners in security and organization;
 * MVC Introduction;
 
-### Advanced JavaScript II
+## Advanced JavaScript II
 
 We continues using the same project to build and learn differents concepts of Java Script. In this modele we approached:
 
@@ -45,4 +50,4 @@ We continues using the same project to build and learn differents concepts of Ja
 
 
 
-~~~ Thanks for coming :)
+### Thanks for coming :)

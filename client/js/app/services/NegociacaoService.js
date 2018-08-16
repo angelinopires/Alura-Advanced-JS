@@ -41,7 +41,6 @@ class NegociacaoService {
        }); 
     }    
     
-    
     obterNegociacoes() {
         return new Promise((resolve, reject) => {
 
