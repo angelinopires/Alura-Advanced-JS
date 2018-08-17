@@ -6,7 +6,7 @@ To run this project you'll need the Node.js installed. Follow this tutorial of N
 https://github.com/creationix/nvm
 ```
 
-First you have to download the project:
+You've finished? Great! Then you have to download the project:
 
 ```
 git clone https://github.com/angelinopires/Alura-Advanced-JS
